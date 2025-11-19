@@ -1,0 +1,9 @@
+USE PUDDiT_DW;
+GO
+
+SELECT TOP 10 * FROM DimDate;
+SELECT TOP 10 * FROM DimUser;
+SELECT TOP 10 * FROM DimPost;
+SELECT TOP 10 * FROM FactPostDaily;
+SELECT TOP 10 * FROM FactCommentDaily;
+SELECT TOP 10 * FROM FactVoteDaily;
